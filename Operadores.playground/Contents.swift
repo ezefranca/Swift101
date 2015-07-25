@@ -201,4 +201,18 @@ alunoz
 alunoRemovido = alunoz.removeAtIndex(0)
 alunoz.count
 
+//Tuplas de Arrays
+var animais : (felinos:[String], caninos:[String])
+
+animais.felinos = []
+animais.caninos = []
+
+animais.caninos.append("Raposa")
+animais.caninos.append("Cachorro")
+animais.caninos.append("Lobo")
+
+animais.felinos.append("Leao")
+animais.felinos.append("Gato")
+
+animais.felinos
 
