@@ -196,5 +196,9 @@ alunox.append("Danilo")
 
 alunox[0] == alunoz[0]
 
+var alunoRemovido = alunoz.removeLast()
+alunoz
+alunoRemovido = alunoz.removeAtIndex(0)
+alunoz.count
 
 
