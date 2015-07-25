@@ -181,3 +181,20 @@ Retornar as seguintes mensagens de acordo com a condicao
 var retangulox = (alt:10.0, larg: 20.0)
 var mensagemx = retangulox.alt >= retangulox.larg ? "VERTICAL" : "HORIZONTAL"
 
+
+//Array
+
+//Array de String
+
+var alunoz : Array<String> = Array<String>()
+alunoz.append("Danilo")
+alunoz.append("Carlos")
+alunoz.append("Ezequiel")
+
+var alunox : [String] = []
+alunox.append("Danilo")
+
+alunox[0] == alunoz[0]
+
+
+
